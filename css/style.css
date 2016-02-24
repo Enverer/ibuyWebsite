@@ -296,9 +296,9 @@ nav a#pull {
 }
 .top-header-search-box{
 	position: absolute;
-	right: 27px;
+	right: 40px;
 	top: 26px;
-	width: 213px;
+	width: 200px;
 	z-index: 999;
 }
 .top-header-search-box input[type="text"]{
@@ -322,8 +322,10 @@ nav a#pull {
 }
 .top-header-search-box input[type="submit"]{
 	position: absolute;
-	top: 0px;
+	top: -5px;
 	background: url(../images/search-icon.png) no-repeat 0px 3.5px;
+	width: 30px;
+	height: 30px;
 	border: none;
 	outline: none;
 	-webkit-appearance: none;

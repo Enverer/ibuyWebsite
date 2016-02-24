@@ -399,7 +399,7 @@ nav a#pull {
 .callbacks img {
   position: relative;
   z-index: 1;
-  height: auto;
+  height: 100px;
   border: 0;
   width: 100%;
 }
@@ -584,7 +584,7 @@ nav a#pull {
 /*----//slider----*/
 /*----content----*/
 .top-row{
-	margin-top: -140px;
+	/*--margin-top: -140px;--*/
 }
 .top-row-col1{
 	background: #FFF;

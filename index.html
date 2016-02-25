@@ -23,7 +23,6 @@
 		 <!---- start-smoth-scrolling---->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
 		<!----webfonts--->
 		
 		<!---//webfonts--->
@@ -31,8 +30,8 @@
 		<script>
 			$(function() {
 				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
+				var	menu 		= $('nav ul');
+				var	menuHeight	= menu.height();
 				$(pull).on('click', function(e) {
 					e.preventDefault();
 					menu.slideToggle();
@@ -56,13 +55,6 @@
 					<a href="index.html"><img src="#" title="logo" /></a>
 				</div>
 				<div class="top-header-info">
-					<div class="top-contact-info">
-						<ul class="unstyled-list list-inline">
-							<li><span class="phone"> </span>88888888</li>
-							<li><span class="mail"> </span><a href="#">xxxxxxxx</a></li>
-							<div class="clearfix"> </div>
-						</ul>
-					</div>
 					<div class="cart-details">
 						<div class="add-to-cart">
 							<ul class="unstyled-list list-inline">
@@ -101,14 +93,14 @@
 					<a href="#" id="pull"><img src="#" title="menu" /></a>
 			  </nav>
 			  <!----End-top-nav---->
-			  <!---top-header-search-box--->
+			  <!---top-header-search-box---->
 			  <div class="top-header-search-box">
 			  	<form>
-			  		<input type="text" placeholder="搜索" required / maxlength="22">
+			  		<input type="text" placeholder="搜索" required maxlength="22">
 			  		<input type="submit" value=" " >
 			  	</form>
 			  </div>
-			  <!---top-header-search-box--->
+			  <!---top-header-search-box---->
 						<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -136,8 +128,8 @@
 			    });
 			  </script>
 			<!----//End-slider-script---->
-			<!-- Slideshow 4 -->
-			    <div  id="top" class="callbacks_container">
+			<!-- Slideshow 4 ---->
+			    <div id="top" class="callbacks_container">
 			      <ul class="rslides" id="slider4">
 			        <li>
 			          <img src="images/1.JPG" alt="">
@@ -164,9 +156,8 @@
 			    <div class="clearfix"> </div>
 			<!----- //End-slider---->
 			<!----content---->
-				<div class="content">
-					<div class="container">
-				<!---top-row--->
+				<!---top-row-->
+				<div class="container">
 				<div class="top-row">
 					<div class="col-xs-4">
 						<div class="top-row-col1 text-center">
@@ -195,11 +186,12 @@
 							<a class="r-list-w" href="#"><img src="#" title="list" /></a>
 						</div>
 					</div>
-					<vdi class="clearfix"> </div>
+					<div class="clearfix"> </div>
 				</div>
-				<!---top-row--->
+					</div>
+				<!---top-row---->
                 <div class="copyrights">Collect from <a href="#"  title="匠心传承">匠心传承</a></div>
-				<div class="container"> 
+				<div class="container">
 				<!----speical-products---->
 				<div class="special-products">
 					<div class="s-products-head">
@@ -207,7 +199,7 @@
 							<h3>SPECIAL <span>PRODUCTS</span></h3>
 						</div>
 						<div class="s-products-head-right">
-							<a href="#"><span> </span>view all products</a>
+							<a href="#"><span> </span>查看更多</a>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -248,7 +240,7 @@
 				<!---//speical-products---->
 				</div>
 			<!----content---->
-			<!----footer--->
+			<!----footer---->
 			<div class="footer">
 				<div class="container">
 					<div class="col-md-3 footer-logo">
@@ -272,12 +264,20 @@
 							<div class="clearfix"> </div>
 						</ul>
 					</div>
+                    <div class="top-contact-info">
+                        <ul class="unstyled-list list-inline">
+                            <li><p style="">联系我们:  </p></li>
+                            <li><span class="phone"> </span>88888888</li>
+                            <li><span class="mail"> </span><a href="#">xxxxxxxx</a></li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
 					<div class="clearfix"> </div>
 				</div>
 			 </div>
 			 <div class="clearfix"> </div>
-			<!---//footer--->
-			<!---copy-right--->
+			<!---//footer---->
+			<!---copy-right---->
 					<div class="copy-right">
 						<div class="container">
 							<p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="#">匠心传承</a> - More Infos <a href="#" target="_blank" title="匠心传承">匠心传承</a></p>
@@ -299,8 +299,7 @@
 							<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 						</div>
 					</div>
-			<!--//copy-right--->
-		</div>
+			<!--//copy-right---->
 		<!----container---->
 	
 </body>

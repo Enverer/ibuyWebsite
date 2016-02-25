@@ -33,8 +33,8 @@ body a{
 }
 /*---top-contact-info---*/
 .top-contact-info li span{
-	width:15px;
-	height:15px;
+	width:30px;
+	height:30px;
 	display:inline-block;
 }
 .top-contact-info li span.phone{

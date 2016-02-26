@@ -16,7 +16,7 @@ body a{
 }
 /*----top-header---*/
 .top-header{
-	padding:2em 0;
+	padding:2em 0 0.3em 0;
 }
 .logo{
 	float: left;
@@ -141,23 +141,26 @@ a.rigister span{
 ul.top-nav{
 	margin:0;
 }
-ul.top-nav li span{
+/*ul.top-nav li span{
 	width: 1px;
-	height: 45px;
+	height: 40px;
 	display: inline-block;
 	background:#DBDBDB;
 	top: 15px;
 	position: absolute;
 }
+*/
 .top-nav ul li a{
 	color: #444444;
-	padding: 1em 1.5em;
+	/*padding: 1em 1.5em;*/
+	padding:0 1.5em;
 	font-size: 1.1em;
 	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
 	position: relative;
 	font-weight: 800;
+	border-right:1px solid #DBDBDB;
 }
 .top-nav ul li a:hover{
 	color:#EE3023;
@@ -297,7 +300,7 @@ nav a#pull {
 .top-header-search-box{
 	position: absolute;
 	right: 40px;
-	top: 26px;
+	top: 8px;
 	width: 200px;
 	z-index: 999;
 }
@@ -473,7 +476,7 @@ nav a#pull {
   width: 100%;
   padding: 0;
   margin: 0;
-  margin-top: -46px;
+  /*margin-top: -46px;*/
 }
 .rslides li {
   -webkit-backface-visibility: hidden;
